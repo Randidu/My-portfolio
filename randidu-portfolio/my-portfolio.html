@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randidu Damsith - Fullstack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Portfolio.</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero hero-bg">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm Randidu Damsith</h1>
+                <h2>Fullstack Developer & AI Engineer</h2>
+                <p>Specializing in AI/ML solutions, enterprise application development, and cloud architecture. Expert in building scalable systems with modern frameworks and cutting-edge AI technologies.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/image/my.jpg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Advanced AI development with LLMs, RAG architecture, NLP, and building autonomous AI agents using LangChain.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Development</h3>
+                    <p>Professional Python with OOP, data structures, file handling, and advanced AI API integration.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java & Spring</h3>
+                    <p>Full-stack Java development with Spring Boot, microservices, Spring Cloud, and RESTful APIs.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React & Angular</h3>
+                    <p>Modern frontend development with React Hooks, state management, Angular components, and responsive design.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Systems</h3>
+                    <p>SQL & NoSQL databases, performance optimization, Spring Data JPA, and database architecture design.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS & DevOps</h3>
+                    <p>Cloud infrastructure with AWS, CI/CD pipelines, Docker, serverless architecture, and Infrastructure as Code.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Flutter Development</h3>
+                    <p>Cross-platform mobile app development with Flutter, Dart programming, and state management.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Version Control & Git</h3>
+                    <p>Git workflows, branching strategies, GitHub Actions, CI/CD automation, and team collaboration.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>QA & Testing</h3>
+                    <p>Test automation, test case design, bug reporting, and quality assurance frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=600&h=400&fit=crop" alt="Crypto AI Bot">
+                    <div class="project-content">
+                        <h3>Crypto Analysis AI Bot</h3>
+                        <p>An intelligent bot that analyzes cryptocurrency trends, provides insights, and automates trading strategies using machine learning.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop" alt="Portfolio">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive portfolio showcasing projects, skills, and professional experience with smooth animations.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop" alt="LLM Application">
+                    <div class="project-content">
+                        <h3>LLM RAG Application</h3>
+                        <p>Advanced RAG system with LangChain integration, custom tool calling, and vector database for intelligent document retrieval.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop" alt="Microservices">
+                    <div class="project-content">
+                        <h3>Spring Cloud Microservices</h3>
+                        <p>Enterprise-grade microservices architecture with Spring Boot, service discovery, API gateway, and distributed tracing.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop" alt="Flutter App">
+                    <div class="project-content">
+                        <h3>Flutter Mobile App</h3>
+                        <p>Cross-platform mobile application with state management, real-time data sync, and intuitive UI/UX design.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Randidu Damsith. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('#navMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navMenu').classList.remove('active');
+            });
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 100);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-card, .project-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
