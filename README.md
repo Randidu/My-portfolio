@@ -35,6 +35,3 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 - Responsive design techniques
 - Intersection Observer API for scroll animations
 
-## How to Run
-
-1. Clone the repository:
