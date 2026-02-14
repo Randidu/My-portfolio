@@ -26,12 +26,4 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 - Social media and contact links integrated.
 - Downloadable CV button.
 
-## Technologies Used
-
-- HTML5 & CSS3
-- JavaScript (Vanilla)
-- Font Awesome for icons
-- Google Fonts (Poppins)
-- Responsive design techniques
-- Intersection Observer API for scroll animations
 
