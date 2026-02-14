@@ -1,8 +1,4 @@
 
-# Randidu Damsith 
-
-A modern, responsive portfolio website showcasing my skills, projects, and professional experience. Built with HTML, CSS, JavaScript, and enhanced with smooth animations and a dark theme for a professional look.
-
 ## Features
 
 - Fully responsive design for desktop, tablet, and mobile.
